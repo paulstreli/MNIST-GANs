@@ -1,2 +1,4 @@
 # MNIST-GANs
 This repository contains the final results for my second Computer Vision Coursework that I completed with my partner Karoly. 
+
+The paper examines various Generative Adversarial Network (GAN) architectures to generate synthetic handwritten digits based on the MNIST dataset. The focus is put on Deep Convolutional GANs (DCGANs) and their extensions to Conditional DCGANs (CDCGANs). They are compared based on the Inception Score and the Frechet Inception Distance and the generated pictures are used to train a digit classifier. The best performance was provided by a CDCGAN with three convolutional layers in the generator and in the discriminator trained using one-sided label smoothing. This network was used to augment the MNIST dataset for training the LeNet architecture. The highest recognition accuracy reached was 96.25%.
